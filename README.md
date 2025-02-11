@@ -8,4 +8,4 @@ Now after running task-1-cnn.ipynb with a train-test split of 80 and 20% having 
 
 For Task 2:
 
-To generate data for easy set I am using dataset_0.py and for hard set dataset_1.py. I am generating 30000 easy images that are stored in dataset_0 folder and 35000 hard images in dataset_1 folder. In the task-2.ipynb I am implementing a CRNN model with CTC loss. My batch size is 20 and epoch is 30. After running for 30 epochs I am getting 95.96% character accuracy on easy and the model is saved as task-2_data_0.pth and on hard set I am getting 92.84% accuracy and the model is saved as task-2_data_1.pth
+To generate data for easy set I am using dataset_0.py and for hard set dataset_1.py. I am generating 30000 easy images that are stored in dataset_0 folder and 35000 hard images in dataset_1 folder. In task-2_data_0.ipynb & task-2_data_1.ipynb I am implementing a CRNN model with CTC loss. My batch size is 20 and epoch is 30. After running for 30 epochs I am getting 96.08% character accuracy on easy set and the model is saved as task-2_data_0.pth and on hard set I am getting 92.84% accuracy and the model is saved as task-2_data_1.pth
